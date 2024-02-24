@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffffff; /* Set background to white */
+    color: #333333; /* Dark gray for readable text against white */
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    font-family: 'paybooc-Bold';
+}
+#main{
+    margin-top: 10%;
+}
+.question {
+    display: none;
+}
+
+.result {
+    display: none;
+}
+
+.progress-bar{
+    background-color: #006BFF; /* Retaining blue for progress bar */
+}
+
+.btn, .btn:focus{
+    background-color: #006BFF; /* Retaining blue for button */
+    border: 0;
+    box-shadow: none;
+    color: #ffffff; /* White text for contrast against blue button */
+}
+
+.btn:hover, .btn:active{
+    background-color: #4A8CFF; /* Lighter blue shade for button hover and active state */
+}
+
+#img1{
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#main_title{
+    color: #006BFF; /* Retaining blue for main title */
+}
+
+#mbti_text, #presume_text{
+    color: #888888; /* Medium gray for secondary text to be softer but still readable */
+    font-size: 18px;
+}
+
+#explain_box {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 769px) {
+    #explain_box {
+        width: 610px;
+    }
+}
+
+#copyright {
+    color: #aaaaaa; /* Lighter gray for copyright text to not stand out too much */
+    font-size: 11px;
+}
